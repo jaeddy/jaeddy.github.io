@@ -1,8 +1,8 @@
 ---
 layout: post
 subtitle: null
-date: ""
-published: false
+date: "2016-04-30"
+published: true
 title: "New site with beautiful-jekyll"
 ---
 ## First post (hopefully of many)
