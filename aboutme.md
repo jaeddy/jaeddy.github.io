@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: "Why you'd want to go on a date with me"
+published: true
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm a biomedical researcher by day &mdash; semi-competent rock climber, bike commuter, dog lover, craft beer enthusiast, aspiring home brewer, music fan, amateur musician, and data scientist in-training by night. Ok...I often do a lot of that other stuff during the day too. I work as a Bioinformatician at the [Benaroya Research Institute](https://www.benaroyaresearch.org/) in Seattle, WA. I share an apartment with my girlfriend and our two stellar dogs, and I do my best to make the most of what life in Seattle (and the greater Washington state) has to offer.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
