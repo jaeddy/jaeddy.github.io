@@ -164,7 +164,7 @@ Getting a little technical here, but the rival scores I calculated above are bas
 
 Results of the cluster analysis are shown in the tree below. As you follow the tree from bottom to top, teams are succesively "linked" up based on their **rival score**. 
 
-```{r, fig.align='center', fig.width=8.5}
+```{r rival-tree, fig.align='center', fig.width=8.5}
 # create distance matrix
 rival_mat <- rival_df %>% 
   filter(rival <= responder) %>% 
@@ -218,7 +218,7 @@ rival_stats <- left_join(rival_pairs, rival_df) %>%
 
 Doing a quick check, I see that the average rival score for the 6 pairs above is **`r rival_stats[["mean_score"]]`**. Not terrible, but not awesome. (As an aside, hierarchical clustering algorithms are not designed to produce any sort of "globally optimal" groupings &mdash; but I'll save that discussion for anyone that's more curious). To see what the clustering looks like with a bit of tweaking, I downweighted any high, but not perfect rival scores: that is, for the **Brad-Drew** and **Ross-Billy** matchups, I adjusted scores from **~95** down to **90** and recomputed the clustering tree.
 
-```{r, fig.align='center', fig.width=8.5, message=FALSE}
+```{r rival-tree-new, fig.align='center', fig.width=8.5, message=FALSE}
 # create modified distance matrix
 rival_mat_new <- rival_mat
 rival_mat_new[rival_mat_new > 90 & rival_mat_new < 100] = 90
