@@ -2,7 +2,7 @@ local({
   # fall back on '/' if baseurl is not specified
   baseurl = servr:::jekyll_config('.', 'baseurl', '/')
   url = servr:::jekyll_config('.', 'url', '/') # added by James
-  knitr::opts_knit$set(base.url = url) # changed by James
+  knitr::opts_knit$set(base.url = paste0(url, '/')) # changed by James
   # fall back on 'kramdown' if markdown engine is not specified
   markdown = servr:::jekyll_config('.', 'markdown', 'kramdown')
   # see if we need to use the Jekyll render in knitr
