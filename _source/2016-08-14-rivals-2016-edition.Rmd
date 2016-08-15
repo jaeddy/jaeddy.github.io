@@ -117,7 +117,7 @@ While Matt was a close second, Brad is the winner (?) in terms of overall **"riv
 
 **OTHER NOTE:** Neither Keith nor Shep provided a response for Drew. These `NA`s might have been intended as the lowest possible rank (i.e., no rivalry whatsoever), which would have lowered Drew's overall score. However, I'm not going to adjust things just because people don't know how to use a survey.
 
-## Quantifying enmnity
+## Quantifying emnity
 
 Figuring out who we *all* dislike (on average) is interesting, but the real question is who dislikes *each other* most. Each potential rival (i.e., one of the 12 possible survey choices) received a ranking from each of the other 11 owners. In turn, each rival also gave a ranking to each of the other owners. By pairing owners up and looking at their recipricol rankings, we can start to see which couples really belong together.
 
